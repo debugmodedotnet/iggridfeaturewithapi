@@ -32,23 +32,23 @@ export class AdaptTableService {
    // private priceblotterfxapiurl = './assets/priceblotterfx.json';
    // private tradeblottercdsapiurl = './assets/tradeblottercds.json';
    // private tradeblottercdsindexapiurl = './assets/tradeblottercdsindex.json';
-    //private tradeblottercommodityapiurl = './assets/tradeblottercommodity.json';
+    // private tradeblottercommodityapiurl = './assets/tradeblottercommodity.json';
    // private tradeblotterfxapiurl = './assets/tradeblotterfx.json';
 
 
    // Calling REST  API
-    private priceblotterbondapiurl = 'http://adapttableapi.azurewebsites.net/api/priceblotterbond';
-    private tradeblotterfxapiurl = 'http://adapttableapi.azurewebsites.net/api/tradeblotterfx';
-    private contactsapiurl = 'http://adapttableapi.azurewebsites.net/api/contacts';
-    private tradeblotterbondapiurl = 'http://adapttableapi.azurewebsites.net/api/tradeblotterbond';
-    private ftsecloseapiurl = 'http://adapttableapi.azurewebsites.net/api/ftseclose';
-    private northwindsorderspiurl = 'http://adapttableapi.azurewebsites.net/api/northwindorders';
-    private priceblottercdsindexapiurl = 'http://adapttableapi.azurewebsites.net/api/priceblottercdsindex';
-    private priceblottercommodityapiurl = 'http://adapttableapi.azurewebsites.net/api/priceblottercommodity';
-    private priceblotterfxapiurl = 'http://adapttableapi.azurewebsites.net/api/priceblotterfx';
-    private tradeblottercdsapiurl = 'http://adapttableapi.azurewebsites.net/api/tradeblottercds';
-    private tradeblottercdsindexapiurl = ' http://adapttableapi.azurewebsites.net/api/tradeblottercdsindex';
-    private tradeblottercommodityapiurl = 'http://adapttableapi.azurewebsites.net/api/tradeblottercommodity';
+    private priceblotterbondapiurl = 'https://adapttableapi.azurewebsites.net/api/priceblotterbond';
+    private tradeblotterfxapiurl = 'https://adapttableapi.azurewebsites.net/api/tradeblotterfx';
+    private contactsapiurl = 'https://adapttableapi.azurewebsites.net/api/contacts';
+    private tradeblotterbondapiurl = 'https://adapttableapi.azurewebsites.net/api/tradeblotterbond';
+    private ftsecloseapiurl = 'https://adapttableapi.azurewebsites.net/api/ftseclose';
+    private northwindsorderspiurl = 'https://adapttableapi.azurewebsites.net/api/northwindorders';
+    private priceblottercdsindexapiurl = 'https://adapttableapi.azurewebsites.net/api/priceblottercdsindex';
+    private priceblottercommodityapiurl = 'https://adapttableapi.azurewebsites.net/api/priceblottercommodity';
+    private priceblotterfxapiurl = 'https://adapttableapi.azurewebsites.net/api/priceblotterfx';
+    private tradeblottercdsapiurl = 'https://adapttableapi.azurewebsites.net/api/tradeblottercds';
+    private tradeblottercdsindexapiurl = ' https://adapttableapi.azurewebsites.net/api/tradeblottercdsindex';
+    private tradeblottercommodityapiurl = 'https://adapttableapi.azurewebsites.net/api/tradeblottercommodity';
  
 
     constructor(private http: HttpClient) { }
